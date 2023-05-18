@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MakeMyTrip]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Assessment(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Test.MakeMyTripChrome">
+        <methods>
+          <include name="tearDown"/>
+          <include name="searchFlight"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test.MakeMyTripChrome -->
+    </classes>
+  </test> <!-- Assessment(failed) -->
+</suite> <!-- Failed suite [MakeMyTrip] -->
